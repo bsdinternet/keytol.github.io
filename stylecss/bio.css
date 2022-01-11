@@ -1,0 +1,34 @@
+
+/*paragraph*/
+
+h1{
+  text-transform: uppercase;
+  margin: 28px;
+  padding: 12px 24px 12px 24px;
+}
+.paragraph{
+  display: flex;
+  align-items: center;
+  text-align: left;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0 auto;
+  min-height: 100vh;
+  width: 85vw;
+}
+section{
+  color: black;
+  font-size: 1em;
+}
+/*paragraph media query*/
+@media screen and (max-width: 768){
+  .paragraph{
+    padding: 5vh
+  }
+}
+
+
+
+
+
+
+
